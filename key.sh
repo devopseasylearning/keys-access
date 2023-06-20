@@ -56,7 +56,10 @@ rm -rf key-access-server || true
 git clone https://devopseasylearning:glpat-P3m8vQvCZExeYym_Tbtv@gitlab.com/session03/instructors/key-access-server.git 
 git config --global user.name "devopseasylearning"
 git config --global user.email info@devopseasylearning.com
-cd key-access-server/keys
+cd key-access-server/keys 
+git pull --all
+sleep 10 
+git pull --all
 cat  ~/.ssh/id_rsa.pub > ./$1.pem
 git add -A 
 git commit -m "adding $1.pem"
