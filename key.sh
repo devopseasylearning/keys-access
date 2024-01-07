@@ -16,7 +16,7 @@ fi
 SESSION=`echo $1 |  awk '{print substr($0,1,2)}'`
 
 if 
-[[ ${SESSION} == a1 ]] ||[[ ${SESSION} == s2 ]] || [[ ${SESSION} == s3 ]] || [[ ${SESSION} == s4 ]] || [[ ${SESSION} == s5 ]] || [[ ${SESSION} == s6 ]] || [[ ${SESSION} == s7 ]]
+[[ ${SESSION} == a1 ]] ||[[ ${SESSION} == s2 ]] || [[ ${SESSION} == s3 ]] || [[ ${SESSION} == s4 ]] || [[ ${SESSION} == s5 ]] || [[ ${SESSION} == s6 ]] || [[ ${SESSION} == s7 ]]  || [[ ${SESSION} == s8 ]] || [[ ${SESSION} == s9 ]]
 then 
 echo "looks good"
 else 
